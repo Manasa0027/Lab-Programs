@@ -18,7 +18,7 @@ public class AdditionOfMatrix
 		System.out.println("Enter matrix2 elements one by one: ");
 		for (int i=0; i<size; i++) {
 			for (int j=0; j<size;j++) {
-				matrix1[i][j]=sc.nextInt();
+				matrix2[i][j]=sc.nextInt();
 			}
 		}
 		int result[][] = new int [3][3];
