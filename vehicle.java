@@ -31,13 +31,13 @@ class Fortuner extends Toyota
 		model=mod;
 		brand=br;
 	}
-		public void display()
-		{
-			System.out.println("the name of the vehicle is "+model);
-			System.out.println("the brand is "+brand);
-			System.out.println("the type of vehicle is "+vehicletype);
-			this.speed();
-		}
+	public void display()
+	{
+		System.out.println("the name of the vehicle is "+model);
+		System.out.println("the brand is "+brand);
+		System.out.println("the type of vehicle is "+vehicletype);
+		this.speed();
+	}
 }
 class demomultilevel 
 {
